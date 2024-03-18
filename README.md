@@ -30,7 +30,7 @@ Leaderboard: Tracks the number of games won by each user.
 
 ## **Setup Instructions**
 - Clone the repository from GitHub: git clone https://github.com/BOJJRAJI/ExplodingKuttens.git
-- Navigate to the project directory: cd ExplodingKitten
+- Navigate to the project directory: cd ExplodingKittens
 - Install dependencies:
 - Backend: cd backend && npm install
 - Client: cd frontend && npm install
