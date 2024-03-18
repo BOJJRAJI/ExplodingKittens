@@ -35,4 +35,23 @@ There will be a button to start the game. When the game is started there will be
 - Backend: cd backend && npm install
 - Client: cd frontend && npm install
 - Run the frontend server: npm start
-- Run the backend server: nodemon run server
+- Run the backend server: npm run server
+
+  # Login Or Register
+
+   ![Login](https://github.com/BOJJRAJI/ExplodingKittens/assets/94085980/082609d7-113d-439b-bb33-2f162e661191)
+
+  # Playground
+
+   ![Play1](https://github.com/BOJJRAJI/ExplodingKittens/assets/94085980/964e669b-e9d4-4701-9a1d-74c925bb40bb)
+
+   ![play2](https://github.com/BOJJRAJI/ExplodingKittens/assets/94085980/29afd120-ee8d-4d0f-bf83-53d6e7f4ef53)
+
+  # Playground
+
+  ![loaderboard](https://github.com/BOJJRAJI/ExplodingKittens/assets/94085980/0d7c7af9-707d-4d43-b79f-2c49d5115dc2)
+
+
+
+
+  
