@@ -1,0 +1,69 @@
+.playground-bg-container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #001a33;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+.defuse-count-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.choose-heading {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.leader-board-button {
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #fb923c;
+  font-family: 'Roboto';
+  font-weight: 800;
+  border: none;
+}
+
+.display-result-para {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 5px;
+  align-self: center;
+}
+.all-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  list-style-type: none;
+}
+@media screen and (max-width: 850px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .choose-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+}

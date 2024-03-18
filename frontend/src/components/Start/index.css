@@ -1,0 +1,89 @@
+.app-bg-container {
+  background-image: url('https://res.cloudinary.com/dx4b3h6c3/image/upload/v1710494373/explody_kitten_bg_image_saeequ.jpg');
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 60px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+.main-heading {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.user-input {
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 26px;
+  outline: none;
+  border: 0px;
+}
+.start-button {
+  color: #ffffff;
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  width: 50%;
+  align-self: center;
+}
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  line-height: 16px;
+  color: #ff0b37;
+  margin-left: 3px;
+}
+@media screen and (max-width: 762px) {
+  .app-bg-container {
+    padding-right: 40px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  .user-input {
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    outline: none;
+  }
+  .start-button {
+    color: #ffffff;
+    background-color: green;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    width: 70%;
+    align-self: center;
+  }
+}

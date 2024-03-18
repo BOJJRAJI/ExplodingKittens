@@ -1,0 +1,15 @@
+.game-over-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #001a33;
+  padding: 20px;
+}
+.game-over-para {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}

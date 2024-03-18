@@ -1,0 +1,30 @@
+.topper-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 46%;
+  margin-top: 0px;
+}
+.topper-heading {
+  font-size: 18px;
+  font-weight: 500;
+  color: #ffffff;
+}
+@media screen and (max-width: 600px) {
+  .topper-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .topper-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 0px;
+  }
+}

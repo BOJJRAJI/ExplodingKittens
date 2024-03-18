@@ -1,0 +1,19 @@
+.list-card {
+  width: 15%;
+  margin: 10px;
+}
+.card-empty-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+.main-card-container {
+  width: 90%;
+}
+@media screen and (max-width: 850px) {
+  .card-empty-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+  }
+}
