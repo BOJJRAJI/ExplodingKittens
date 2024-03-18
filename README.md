@@ -18,10 +18,10 @@ There will be a button to start the game. When the game is started there will be
 - If the card is a shuffle card, then the game is restarted and the deck is filled with 5 cards again.
 **
 ## **Features**
-User Registration: Users can create a username to enter the game.
-Single-Player Gameplay: Players draw cards from the deck and interact with different card types according to the game rules.
-Card Types: Cat cards are harmless, Defuse cards prevent explosion, Shuffle cards restart the game, and Exploding Kitten cards end the game.
-Leaderboard: Tracks the number of games won by each user.
+- User Registration: Users can create a username to enter the game.
+- Single-Player Gameplay: Players draw cards from the deck and interact with different card types according to the game rules.
+- Card Types: Cat cards are harmless, Defuse cards prevent explosion, Shuffle cards restart the game, and Exploding Kitten cards end the game.
+- Leaderboard: Tracks the number of games won by each user.
 
 ## **Technologies Used**
 - Backend: Node.js && Express.js
