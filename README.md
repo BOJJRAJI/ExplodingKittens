@@ -24,15 +24,15 @@ Card Types: Cat cards are harmless, Defuse cards prevent explosion, Shuffle card
 Leaderboard: Tracks the number of games won by each user.
 
 ## **Technologies Used**
-Backend: Node.js && Express.js
-Frontend: React.js
-Database: SQLITE3
+- Backend: Node.js && Express.js
+- Frontend: React.js
+- Database: SQLITE3
 
 ## **Setup Instructions**
-Clone the repository from GitHub: git clone https://github.com/MuskanGarg24/Exploding-Kitten.git
-Navigate to the project directory: cd Exploding-Kitten
-Install dependencies:
-Backend: cd backend && npm install
-Client: cd frontend && npm install
-Run the frontend server: npm start
-Run the backend server: nodemon run server
+- Clone the repository from GitHub: git clone https://github.com/BOJJRAJI/ExplodingKuttens.git
+- Navigate to the project directory: cd ExplodingKitten
+- Install dependencies:
+- Backend: cd backend && npm install
+- Client: cd frontend && npm install
+- Run the frontend server: npm start
+- Run the backend server: nodemon run server
